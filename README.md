@@ -16,4 +16,4 @@ For example:
 ```bash
 0 */12 * * * /home/chris/IP_Sender/IP_Sender.sh >> /tmp/email_log.txt 2>&1
 ```
-Will run the code once every 12 hours, starting at midnight.
+Will run the code once every 12 hours, starting at midnight. It will also log the output of the script into a txt file.
